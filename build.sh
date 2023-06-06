@@ -34,6 +34,9 @@ cd nfsen-1.3.7
 # clean ugly mac files
 find . | grep "\\._" | xargs rm
 
+cd /build
+wget https://sourceforge.net/projects/flowdoh/files/FlowDoh_1.0.2.tar.gz/download
+tar -xzf FlowDoh_1.0.2.tar.gzFlowDoh_1.0.2.tar.gz
 
 mkdir /data
 

@@ -28,9 +28,9 @@ find . | grep "\\._" | xargs rm
 make && make install
 
 cd /build
-wget http://sourceforge.net/projects/nfsen/files/stable/nfsen-1.3.7/nfsen-1.3.7.tar.gz
-tar -xzf nfsen-1.3.7.tar.gz
-cd nfsen-1.3.7
+wget http://sourceforge.net/projects/nfsen/files/stable/nfsen-1.3.8/nfsen-1.3.8.tar.gz
+tar -xzf nfsen-1.3.8.tar.gz
+cd nfsen-1.3.8
 # clean ugly mac files
 find . | grep "\\._" | xargs rm
 

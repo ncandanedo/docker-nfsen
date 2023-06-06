@@ -37,6 +37,8 @@ find . | grep "\\._" | xargs rm
 cd /build
 wget https://sourceforge.net/projects/flowdoh/files/FlowDoh_1.0.2.tar.gz/download
 tar -xzf FlowDoh_1.0.2.tar.gzFlowDoh_1.0.2.tar.gz
+cp -r flowdoh/backend/* /usr/local/nfsen/plugins/
+cp -r flowdoh/frontend/* /var/www/nfsen/plugins/
 
 mkdir /data
 
